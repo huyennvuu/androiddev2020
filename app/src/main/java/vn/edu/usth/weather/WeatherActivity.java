@@ -5,8 +5,9 @@ import android.util.Log;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentActivity;
 
-public class WeatherActivity extends AppCompatActivity {
+public class WeatherActivity extends FragmentActivity {
 
     private static final String TAG = "WeatherActivity";
 
@@ -14,7 +15,11 @@ public class WeatherActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.weather_activity);
         Log.i(TAG,"This is onCreate");
+        // Create a new Fragment
+        ForecastFragment firstFragment = new ForecastFragment();
+        getSupportFragmentManager().beginTransaction().add(R.id.container, firstFragment).commit();
     }
 
     @Override
