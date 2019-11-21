@@ -2,13 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    android:background="@color/colorPrimaryLight">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-    </TextView>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -32,6 +27,16 @@
             android:layout_height="50dp"
             android:text="Snơwy \n -5C - 0C"
             android:gravity="center"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </ScrollView>
 
     </LinearLayout>
 
@@ -212,6 +217,7 @@
             android:src="@drawable/rainy"
             android:gravity="center"
             android:padding="10dp"/>
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
