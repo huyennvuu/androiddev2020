@@ -12,6 +12,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="?android:attr/listDivider" />
+
     <fragment
         android:id="@+id/fragment6"
         android:name="vn.edu.usth.weather.ForecastFragment"
