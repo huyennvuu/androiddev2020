@@ -22,7 +22,7 @@
             android:layout_width="130dp"
             android:layout_height="50dp"
             android:textSize="20sp"
-            android:text="Monday:"
+            android:text="@string/monday"
             android:gravity="center"/>
 
         <ImageView
@@ -36,12 +36,12 @@
             android:layout_width="170dp"
             android:layout_height="50dp"
             android:gravity="center"
-            android:text="Snơwy \n -5C - 0C" />
+            android:text="@string/snowy" />
 
     </LinearLayout>
 
     <View
-        android:id="@+id/divider3"
+        android:id="@+id/divider1"
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="?android:attr/listDivider" />
@@ -55,7 +55,7 @@
             android:layout_width="130dp"
             android:layout_height="50dp"
             android:textSize="20sp"
-            android:text="Tuesday:"
+            android:text="@string/tuesday"
             android:gravity="center"/>
 
         <ImageView
@@ -73,16 +73,15 @@
             <TextView
                 android:layout_width="170dp"
                 android:layout_height="50dp"
-                android:layout_weight="1"
                 android:gravity="center"
-                android:text="Cloudy \n 25C - 27C" />
+                android:text="@string/cloudy" />
 
         </LinearLayout>
 
     </LinearLayout>
 
     <View
-        android:id="@+id/divider3"
+        android:id="@+id/divider2"
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="?android:attr/listDivider" />
@@ -96,7 +95,7 @@
             android:layout_width="130dp"
             android:layout_height="50dp"
             android:textSize="20sp"
-            android:text="Wednesday:"
+            android:text="@string/wednesday"
             android:gravity="center"/>
 
         <ImageView
@@ -115,7 +114,7 @@
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Heavy Rain \n 25C - 27C" />
+                android:text="@string/heavy_rain" />
 
         </LinearLayout>
 
@@ -136,7 +135,7 @@
             android:layout_width="130dp"
             android:layout_height="50dp"
             android:textSize="20sp"
-            android:text="Thursday:"
+            android:text="@string/thursday"
             android:gravity="center"/>
 
         <ImageView
@@ -155,14 +154,14 @@
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Storm \n 22C - 25C" />
+                android:text="@string/stormy" />
 
         </LinearLayout>
 
     </LinearLayout>
 
     <View
-        android:id="@+id/divider3"
+        android:id="@+id/divider4"
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="?android:attr/listDivider" />
@@ -195,14 +194,14 @@
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Windy \n 24C - 29C" />
+                android:text="@string/windy" />
 
         </LinearLayout>
 
     </LinearLayout>
 
     <View
-        android:id="@+id/divider3"
+        android:id="@+id/divider5"
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="?android:attr/listDivider" />
@@ -216,7 +215,7 @@
             android:layout_width="130dp"
             android:layout_height="50dp"
             android:textSize="20sp"
-            android:text="Saturday:"
+            android:text="@string/saturday"
             android:gravity="center"/>
 
         <ImageView
@@ -235,14 +234,14 @@
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Sunny \n 25C - 27C" />
+                android:text="@string/sunny" />
 
         </LinearLayout>
 
     </LinearLayout>
 
     <View
-        android:id="@+id/divider3"
+        android:id="@+id/divider6"
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="?android:attr/listDivider" />
@@ -256,7 +255,7 @@
             android:layout_width="130dp"
             android:layout_height="50dp"
             android:textSize="20sp"
-            android:text="Sunday:"
+            android:text="@string/sunday"
             android:gravity="center"/>
 
         <ImageView
@@ -276,14 +275,14 @@
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Rainy \n 28C - 30C" />
+                android:text="@string/rainy" />
 
         </LinearLayout>
 
     </LinearLayout>
 
     <View
-        android:id="@+id/divider3"
+        android:id="@+id/divider7"
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="?android:attr/listDivider" />
@@ -297,7 +296,7 @@
             android:layout_width="130dp"
             android:layout_height="50dp"
             android:textSize="20sp"
-            android:text="Monday:"
+            android:text="@string/monday"
             android:gravity="center"/>
 
         <ImageView
@@ -316,7 +315,7 @@
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Thunder \n 25C - 27C" />
+                android:text="@string/thunder" />
 
         </LinearLayout>
 

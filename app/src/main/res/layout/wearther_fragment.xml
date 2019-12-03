@@ -7,10 +7,10 @@
     >
 
     <TextView
-        android:layout_width="150dp"
+        android:layout_width="147dp"
         android:layout_height="200dp"
         android:gravity="center"
-        android:text="Today"
+        android:text="@string/today"
         android:textSize="36sp" />
 
     <ImageView
@@ -24,18 +24,12 @@
         android:orientation="vertical">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:gravity="bottom|center_horizontal"
-            android:text="Sunny"
+            android:layout_width="164dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center"
+            android:text="@string/sunny"
             android:textSize="18sp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:text="25C - 30C"
-            android:textSize="14sp" />
 
     </LinearLayout>
 </LinearLayout>
