@@ -2,12 +2,15 @@ package vn.edu.usth.weather;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.TableLayout;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
+
+import com.google.android.material.tabs.TabLayout;
 
 public class WeatherActivity extends FragmentActivity {
 
@@ -29,5 +32,7 @@ public class WeatherActivity extends FragmentActivity {
         pager.setPageMargin(15);
         pager.setOffscreenPageLimit(3);
         pager.setAdapter(adapter);
+        TabLayout tabLayout = findViewById(R.id.tab);
+        tabLayout.setupWithViewPager(pager);
     }
 }
