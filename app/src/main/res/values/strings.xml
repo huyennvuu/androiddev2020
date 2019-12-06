@@ -19,6 +19,7 @@
     <string name="sunday">Sunday</string>
 
     <string name="snowy">Snowy \n -5C - 0C</string>
+    <string name="rainbow">Rainbow \n 22C - 27C</string>
     <string name="sunny">Sunny \n 25C - 29C</string>
     <string name="rainy">Rainy \n 15C - 20C</string>
     <string name="stormy">Stormy \n 12C - 17C</string>

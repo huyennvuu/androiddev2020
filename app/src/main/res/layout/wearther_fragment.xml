@@ -3,8 +3,7 @@
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="200dp"
-    android:background="@color/colorPrimary"
-    >
+    android:background="@drawable/frame">
 
     <TextView
         android:layout_width="147dp"
